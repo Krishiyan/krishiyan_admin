@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:krishiyan_admin/screen/Admin/AdminHomeScreen/PostNewsScreen.dart';
 import 'package:krishiyan_admin/screen/Admin/AdminHomeScreen/UpdateorDeleteNews.dart';
 import 'package:krishiyan_admin/screen/Admin/AdminProfile/Admin_profile.dart';
-import 'package:krishiyan_admin/screen/Admin/CropLibrary/CropLibrary.dart';
 import 'package:krishiyan_admin/utils/AppColor.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:krishiyan_admin/screen/Admin/AdminFrm/Frmhome.dart';
@@ -23,7 +22,7 @@ class _AdminhomepageState extends State<Adminhomepage> {
     bottomCategory(name: "FRM", id: "2", icon: 'assets/images/bottom2.png'),
     bottomCategory(
         name: "Enq", id: "5", icon: 'assets/images/bottomCenter.png'),
-    bottomCategory(name: "Crop", id: "3", icon: 'assets/images/bottom3.png'),
+    // bottomCategory(name: "Crop", id: "3", icon: 'assets/images/bottom3.png'),
     bottomCategory(name: "Profile", id: "4", icon: 'assets/images/bottom4.png'),
     // New item added
   ];
@@ -84,7 +83,7 @@ class _AdminhomepageState extends State<Adminhomepage> {
       ),
       Frmhome(),
       EnquiryPage(), // Replace the placeholder with the actual EnquiryPage
-      CropLibraryScreen(),
+      // CropLibraryScreen(),
       Admin_profile(),
     ];
 
